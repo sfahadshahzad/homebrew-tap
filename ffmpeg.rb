@@ -29,6 +29,8 @@ class Ffmpeg < Formula
   option "with-srt", "Enable SRT library"
   option "with-libvmaf", "Enable libvmaf scoring library"
   option "with-aom", "Enable AV1 video codec"
+  option "with-decklink", "Enable using Blackmagic Design's Decklink devices."
+
 
   depends_on "nasm" => :build
   depends_on "pkg-config" => :build
